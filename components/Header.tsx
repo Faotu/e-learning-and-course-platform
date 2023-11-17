@@ -14,20 +14,21 @@ const Header = () => {
     items-center 
     bg-purple-900 
     pt-4 
+    pb-4
     w-screen 
     sm:h-full 
     sm:w-screen "
     >
       <div>
-        <h1 className="text-white text-2xl text-center px-4">
+        <h1 className="text-white text-2xl text-center justify-center px-4">
           You have Found Everything You Need to Earn 4 Times Your Current Salary
           Today!
         </h1>
       </div>
-      <div className="pt-5">
+      <div className="flex justify-center items-center pt-5">
         <iframe
-          width="400"
-          height="450"
+          width="850"
+          height="550"
           src={videoUrl.replace("watch?v=", "embed/")}
           //   style={{ border: "none" }}
         ></iframe>
