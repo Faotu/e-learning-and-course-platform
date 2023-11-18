@@ -3,7 +3,7 @@ import data from "./data";
 
 const Hero = () => {
   return (
-    <div className="bg-neutral-300 h-screen w-screen pt-10 mr-10 ">
+    <div className="bg-neutral-300 h-screen w-screen pt-10 mr-10 pb-0">
       <div className="ml-10">
         <h1 className="font-bold">
           My Dear Intelligent, Hardworking, Young Nigerian,
