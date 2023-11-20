@@ -131,18 +131,70 @@ const Testimony = () => {
             </strong>
             <p className="pt-5 text-3xl font-bold">Here's how</p>
           </div>
-          <div className="flex items-center justify-between space-y-4">
-            <div className="rounded-lg bg-white">
-              <h1>1</h1>
-              <p>Enroll for the Work and Shine course now</p>
+          <div className="flex items-center justify-between space-x-6 pl-20 pr-20 pt-4 pb-4">
+            <div className="flex-1 rounded-tr-2xl rounded-bl-2xl bg-white h-40 w-70 text-2xl font-bold">
+              <h1
+                className="
+                pt-5
+                flex 
+                justify-center
+                items-center
+               text-4xl
+              text-gray-800 
+               font-bold  
+               text-shadow-lg
+               shadow-yellow-200"
+              >
+                1
+              </h1>
+              <div className="flex flex-col justify-center items-center">
+                <p className=" pl-10 pr-10 justify-center">
+                  Enroll for the Work
+                </p>
+                <p> and Shine course</p>
+
+                <p>now</p>
+              </div>
             </div>
-            <div className="rounded-lg bg-white">
-              <h1>2</h1>
-              <p>Enroll for the Work and Shine course now</p>
+            <div className="flex-1 rounded-tr-2xl rounded-bl-2xl bg-white h-40 w-70 p-4 text-2xl font-bold">
+              <h1
+                className="
+                pt-5
+                flex 
+                justify-center
+                items-center
+               text-4xl
+              text-gray-800 
+               font-bold  
+              shadow-red-300"
+              >
+                2
+              </h1>
+              <div className="flex flex-col justify-center items-center">
+                <p className=" pl-10 pr-10 justify-center">Implement the</p>
+                <p> contenthine course</p>
+
+                <p>now</p>
+              </div>
             </div>
-            <div className="rounded-lg bg-white">
-              <h1>3</h1>
-              <p>Enroll for the Work and Shine course now</p>
+            <div className="flex-1 rounded-tr-2xl rounded-bl-2xl bg-white h-40 w-70 p-4 text-2xl font-bold">
+              <h1
+                className="
+                pt-5
+                flex 
+                justify-center
+                items-center
+               text-4xl
+              text-gray-800 
+               font-bold  
+              shadow-red-300"
+              >
+                3
+              </h1>
+              <div className="flex flex-col justify-center items-center">
+                <p className=" pl-10 pr-10 justify-center">Collect</p>
+                <p> your money</p>
+              </div>
             </div>
           </div>
         </div>
