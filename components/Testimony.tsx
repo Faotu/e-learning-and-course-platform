@@ -125,6 +125,26 @@ const Testimony = () => {
               ))}
             </ul>
           </div>
+          <div className="text-white pl-20 pt-5">
+            <strong className="space-y-5 font-bold text-3xl">
+              I know you are wondering how you can do the same.
+            </strong>
+            <p className="pt-5 text-3xl font-bold">Here's how</p>
+          </div>
+          <div className="flex items-center justify-between space-y-4">
+            <div className="rounded-lg bg-white">
+              <h1>1</h1>
+              <p>Enroll for the Work and Shine course now</p>
+            </div>
+            <div className="rounded-lg bg-white">
+              <h1>2</h1>
+              <p>Enroll for the Work and Shine course now</p>
+            </div>
+            <div className="rounded-lg bg-white">
+              <h1>3</h1>
+              <p>Enroll for the Work and Shine course now</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
