@@ -1,5 +1,6 @@
 import React from "react";
 import testdata from "./testdata";
+import Steps from "./Steps";
 
 const Testimony = () => {
   const videoUrl = "https://www.youtube.com/watch?v=XHOmBV4js_E";
@@ -132,7 +133,7 @@ const Testimony = () => {
             <p className="pt-5 text-3xl font-bold">Here's how</p>
           </div>
           <div className="flex items-center justify-between space-x-6 pl-20 pr-20 pt-4 pb-4">
-            <div className="flex-1 rounded-tr-2xl rounded-bl-2xl bg-white h-40 w-70 text-2xl font-bold">
+            <div className="flex-1 rounded-tr-2xl rounded-bl-2xl bg-white h-50 w-70 text-2xl font-bold">
               <h1
                 className="
                 pt-5
@@ -147,7 +148,7 @@ const Testimony = () => {
               >
                 1
               </h1>
-              <div className="flex flex-col justify-center items-center">
+              <div className=" flex flex-col justify-center items-center">
                 <p className=" pl-10 pr-10 justify-center">
                   Enroll for the Work
                 </p>
@@ -156,7 +157,7 @@ const Testimony = () => {
                 <p>now</p>
               </div>
             </div>
-            <div className="flex-1 rounded-tr-2xl rounded-bl-2xl bg-white h-40 w-70 p-4 text-2xl font-bold">
+            <div className="flex-1 rounded-tr-2xl rounded-bl-2xl bg-white h-50 w-70 p-4 text-2xl font-bold">
               <h1
                 className="
                 pt-5
@@ -172,12 +173,12 @@ const Testimony = () => {
               </h1>
               <div className="flex flex-col justify-center items-center">
                 <p className=" pl-10 pr-10 justify-center">Implement the</p>
-                <p> contenthine course</p>
+                <p> content in the course</p>
 
                 <p>now</p>
               </div>
             </div>
-            <div className="flex-1 rounded-tr-2xl rounded-bl-2xl bg-white h-40 w-70 p-4 text-2xl font-bold">
+            <div className="flex-1 rounded-tr-2xl rounded-bl-2xl bg-white 5-40 w-70 p-4 text-2xl font-bold">
               <h1
                 className="
                 pt-5
@@ -197,8 +198,12 @@ const Testimony = () => {
               </div>
             </div>
           </div>
+          <strong className="text-4xl text-white pl-20 pb-5">
+            It is that simple
+          </strong>
         </div>
       </div>
+      <Steps />
     </div>
   );
 };
