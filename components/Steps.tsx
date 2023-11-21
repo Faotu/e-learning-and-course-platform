@@ -50,6 +50,14 @@ const Steps = () => {
             ))}
           </ul>
         </div>
+        <div className="rounded border border-white p-4 pt-4 text-white text-2xl font-bold pl-20 pr-20">
+          <h1 className="justify-center items-center">
+            You see, the best way forward is to earn a good income. I mean 4
+            times your current Salary or preferably, earn in US dollars which is
+            what the Work and Shine Course is about to hand over to you if you
+            enroll today
+          </h1>
+        </div>
       </div>
     </div>
   );
