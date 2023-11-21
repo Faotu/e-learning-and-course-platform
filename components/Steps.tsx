@@ -34,8 +34,8 @@ const Steps = () => {
           </ul>
         </div>
       </div>
-      <div className="bg-purple-900">
-        <div className="text-white pl-20 pr-20 pt-5 text-2xl font-bold space-y-4">
+      <div className="bg-purple-950">
+        <div className="text-white pl-20 pr-20 pt-5 pb-6 text-2xl font-bold space-y-4">
           <h1>My Friend,</h1>
           <p>
             With the way the country is going, one day, 1 us dollar will be
@@ -43,20 +43,81 @@ const Steps = () => {
             fare. Now think of about;
           </p>
         </div>
-        <div className="text-white pl-20 pr-20 font-bold">
-          <ul className="space-y-3">
+        <div className="text-white pl-20 pr-20 font-bold pb-5">
+          <ul className="space-y-3 pb-5">
             {more.map((item, index) => (
               <li key={index}>{item}</li>
             ))}
           </ul>
+          <div className="rounded-lg border-4 border-white p-4  text-white text-2xl font-bold pl-20 pr-20">
+            <h1 className="text-center space-y-4">
+              You see, the best way forward is to earn a good income. I mean 4
+              times your current Salary or preferably, earn in US dollars which
+              is what the Work and Shine Course is about to hand over to you if
+              you enroll today
+            </h1>
+          </div>
         </div>
-        <div className="rounded border border-white p-4 pt-4 text-white text-2xl font-bold pl-20 pr-20">
-          <h1 className="justify-center items-center">
-            You see, the best way forward is to earn a good income. I mean 4
-            times your current Salary or preferably, earn in US dollars which is
-            what the Work and Shine Course is about to hand over to you if you
-            enroll today
-          </h1>
+        <div className="bg-yellow-200 h-screen w-screen">
+          <div className="pl-20 pr-20 pt-5 text-2xl">
+            <strong>
+              All you need to implement the Work and Shine Course is
+            </strong>
+            <ul className="list-none space-y-4">
+              <li className="flex items-center before:content-['•'] before:block before:text-2xl before:mr-2 ">
+                A Laptop/good smartphone,
+              </li>
+              <li className="flex items-center before:content-['•'] before:block before:text-2xl before:mr-2">
+                Good internet connection
+              </li>
+              <li className="flex items-center before:content-['•'] before:block before:text-2xl before:mr-2">
+                An open mind
+              </li>
+              <li className="flex items-center before:content-['•'] before:block before:text-2xl before:mr-2">
+                And time to put into practice the things you will learn
+              </li>
+            </ul>
+
+            {/* Import Image  */}
+
+            <h1>Image content here</h1>
+            <h1 className="text-center font-bold text-neutral-700">
+              Nothing flashy. This was how I started in 2019
+            </h1>
+          </div>
+        </div>
+        <div className="bg-slate-300 h-screen w-screen">
+          <div className="pl-20 pr-2 pt-5 pb-5 space-y-4">
+            <h1 className="text-2xl font-bold ">
+              It was with those plastic tables and chair I made my first $100 in
+              2019.
+            </h1>
+
+            {/* Images */}
+            <h1>Add images here</h1>
+
+            <p className="text-2xl font-bold ">
+              Thejourney since then has been exciting and full of fun, pain and
+              lots of memories. Unlike other marketers online whojust sell
+              courses, mine is different.
+            </p>
+            <p className="text-2xl font-bold">
+              I’m offering you what has worked for me. Experiences that cost me
+              a lot to gain and the pain of seating over 10,000 hours of work
+              for clients across the globe
+            </p>
+
+            {/* Image */}
+            <h1>Add image here </h1>
+          </div>
+          <div className="bg-yellow-200">
+            <p className="text-center text-2xl text-bold">
+              I know you are thinking that Work and Shine Course will cost you
+              all your savings, But, NO! you don’t have to break your savings to
+              get the Work and Shine Course and the many goodies I added for
+              you. Before you even pay....
+            </p>
+          </div>
         </div>
       </div>
     </div>
