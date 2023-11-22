@@ -158,12 +158,17 @@ const Steps = () => {
               </ol>
             </div>
             <div className="bg-purple-900 pt-5 flex justify-center items-center">
-              <div className="w-80 h-40 bg-white rounded">
-                <h1 className="">
+              <div className="w-full ml-20 mr-20 h-40 bg-white rounded-lg pt-5">
+                <h1 className="text-center font-semibold text-4xl space-y-5 pl-10 pr-10">
                   To get access to the Work and Shine course now, all you need
                   do is make a payment of #4,950.00 only
                 </h1>
               </div>
+            </div>
+            <div className="">
+              <h1 className="text-white text-center pt-5 font-bold text-2xl">
+                The Choice is yours
+              </h1>
             </div>
           </div>
         </div>
