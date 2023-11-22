@@ -111,12 +111,60 @@ const Steps = () => {
             <h1>Add image here </h1>
           </div>
           <div className="bg-yellow-200">
-            <p className="text-center text-2xl text-bold">
+            <p className="text-center text-3xl font-bold leading-10 pt-10 pb-10 pl-20 pr-20">
               I know you are thinking that Work and Shine Course will cost you
               all your savings, But, NO! you don’t have to break your savings to
               get the Work and Shine Course and the many goodies I added for
               you. Before you even pay....
             </p>
+          </div>
+          <div className="bg-purple-900 h-screen w-screen">
+            <h1 className="text-3xl font-bold pl-20 pr-20 pt-5 text-white leading-10">
+              Just take a look at what you can earn when you master the system
+              I’m going to show you in the Work and Shine course
+            </h1>
+            {/* Images  */}
+            <h1>Add Imges here</h1>
+          </div>
+          <div className="bg-purple-900 h-screen w-screen">
+            <div className="bg-white leading-10 text-2xl">
+              <h1 className="pl-20 pr-20 font-bold">
+                In addition to the course, you’ll get some extras...
+              </h1>
+              <h2 className="pl-20 pr-20">
+                Bonuses you’ll get when you enroll today
+              </h2>
+              <ol className="list-decimal pl-20 pr-20 pt-5 pb-5 leading-10 text-xl font-bold ">
+                <li>
+                  My income multiplication blueprint{" "}
+                  <span className="text-red-500 line-through">#51,500</span>{" "}
+                </li>
+                <li>
+                  My global visibility roadmap{" "}
+                  <span className="text-red-500 line-through"> #15,750</span>{" "}
+                </li>
+                <li>
+                  A copy of every proposal that has gotten me a rich client
+                  <span className="text-red-500 line-through"> #30,500 </span>
+                </li>
+                <li>
+                  Lifetime access to ask me anything as you implement the course
+                  content <span className="text-red-500">Priceless</span>
+                </li>
+                <li>
+                  Free access to my life Q and A sessions{" "}
+                  <span className="text-red-500">Priceless</span>{" "}
+                </li>
+              </ol>
+            </div>
+            <div className="bg-purple-900 pt-5 flex justify-center items-center">
+              <div className="w-80 h-40 bg-white rounded">
+                <h1 className="">
+                  To get access to the Work and Shine course now, all you need
+                  do is make a payment of #4,950.00 only
+                </h1>
+              </div>
+            </div>
           </div>
         </div>
       </div>
