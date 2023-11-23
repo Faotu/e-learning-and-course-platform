@@ -12,7 +12,7 @@ const Header = () => {
     flex 
     flex-col 
     items-center 
-    bg-purple-900 
+    bg-[#470954]
     pt-4 
     pb-4
     w-screen 

@@ -1,5 +1,7 @@
 import React from "react";
 
+import Image from "next/image";
+
 const Steps = () => {
   const sets = [
     "How to get very rich clients to hire you even if you are not a pro or don’t have any real work experience yet",
@@ -22,7 +24,7 @@ const Steps = () => {
 
   return (
     <div>
-      <div className="bg-yellow-200 pt-10 pl-20 pr-20 items-center justify-center">
+      <div className="bg-[E7D9BC] pt-10 pl-20 pr-20 items-center justify-center">
         <div>
           <h1 className="text-neutral-900 text-4xl font-bold pb-5">
             In the Work and Shine course, I will show you step-by-step;
@@ -34,7 +36,7 @@ const Steps = () => {
           </ul>
         </div>
       </div>
-      <div className="bg-purple-950">
+      <div className="bg-[#470954]">
         <div className="text-white pl-20 pr-20 pt-5 pb-6 text-2xl font-bold space-y-4">
           <h1>My Friend,</h1>
           <p>
@@ -58,7 +60,7 @@ const Steps = () => {
             </h1>
           </div>
         </div>
-        <div className="bg-yellow-200 h-screen w-screen">
+        <div className="bg-[E7D9BC] h-screen w-screen">
           <div className="pl-20 pr-20 pt-5 text-2xl">
             <strong>
               All you need to implement the Work and Shine Course is
@@ -110,7 +112,7 @@ const Steps = () => {
             {/* Image */}
             <h1>Add image here </h1>
           </div>
-          <div className="bg-yellow-200">
+          <div className="bg-[E7D9BC]">
             <p className="text-center text-3xl font-bold leading-10 pt-10 pb-10 pl-20 pr-20">
               I know you are thinking that Work and Shine Course will cost you
               all your savings, But, NO! you don’t have to break your savings to
@@ -118,7 +120,7 @@ const Steps = () => {
               you. Before you even pay....
             </p>
           </div>
-          <div className="bg-purple-900 h-screen w-screen">
+          <div className="bg-[#470954] h-screen w-screen">
             <h1 className="text-3xl font-bold pl-20 pr-20 pt-5 text-white leading-10">
               Just take a look at what you can earn when you master the system
               I’m going to show you in the Work and Shine course
@@ -126,7 +128,7 @@ const Steps = () => {
             {/* Images  */}
             <h1>Add Imges here</h1>
           </div>
-          <div className="bg-purple-900 h-screen w-screen">
+          <div className="bg-[#470954] h-screen w-screen">
             <div className="bg-white leading-10 text-2xl">
               <h1 className="pl-20 pr-20 font-bold">
                 In addition to the course, you’ll get some extras...
@@ -157,7 +159,7 @@ const Steps = () => {
                 </li>
               </ol>
             </div>
-            <div className="bg-purple-900 pt-5 flex justify-center items-center">
+            <div className="bg-[#470954] h-1/2 pt-5 flex justify-center items-center space-y-5 ">
               <div className="w-full ml-20 mr-20 h-40 bg-white rounded-lg pt-5">
                 <h1 className="text-center font-semibold text-4xl space-y-5 pl-10 pr-10">
                   To get access to the Work and Shine course now, all you need
@@ -165,11 +167,30 @@ const Steps = () => {
                 </h1>
               </div>
             </div>
-            <div className="">
-              <h1 className="text-white text-center pt-5 font-bold text-2xl">
-                The Choice is yours
-              </h1>
-            </div>
+
+            {/* <h1 className="text-2xl font-bold text-center pt-5 text-white">
+              The choice is yours!
+            </h1> */}
+
+            {/* <div className="flex flex-row items-center justify-center space-x-20 pt-10">
+              <div className="flex items-center">
+                <div className="w-4 h-4 bg-white rounded-full"></div>
+                <div className="flex-1 h-1 w-40 bg-white"></div>
+                <div className="w-4 h-4 bg-white rounded-full"></div>
+              </div>
+              <div className="flex items-center">
+                <div className="w-4 h-4 bg-white rounded-full"></div>
+                <div className="flex-1 h-1 w-40 bg-white"></div>
+                <div className="w-4 h-4 bg-white rounded-full"></div>
+              </div>
+            </div> */}
+            <Image
+              className="flex justify-center pb-5"
+              src="/images/back.png"
+              alt="chris background image"
+              width={1500}
+              height={200}
+            />
           </div>
         </div>
       </div>

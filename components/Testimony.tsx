@@ -32,7 +32,7 @@ const Testimony = () => {
   ];
 
   return (
-    <div className="bg-purple-950 h-screen w-screen justify-start">
+    <div className="bg-[#470954] h-screen w-screen justify-start">
       <div className="pl-10">
         <h1 className="mt-5 pt-5 text-white text-2xl flex font-bold items-center justify-center mr-8">
           LET'S START WITH SOME TESTIMONIES
@@ -88,13 +88,13 @@ const Testimony = () => {
       <h1 className="pt-5 pb-5 ml-20">
         Ready to earn 4 times your Salary now?
       </h1>
-      <div className="bg-purple-900">
+      <div className="bg-[#470954]">
         <div className="ml-20">
           <h1 className="text-white font-bold pt-5 pb-2">
             But, so I don't Waste your Time;
           </h1>
           <p className="text-white pt-5">DON'T READ Further If:</p>
-          <div className="bg-amber-300 rounded-lg mr-20 pt-8 pb-8">
+          <div className="bg-[E7D9BC] rounded-lg mr-20 pt-8 pb-8">
             <ul className=" space-y-4">
               <li> You want to Blow overnight</li>
               <li> You think everyone online is trying to scam you</li>
@@ -112,7 +112,7 @@ const Testimony = () => {
           years! No be today I start.
         </h1>
         <div>{/* Image missing  */}</div>
-        <div className="bg-purple-900 pt-5">
+        <div className="bg-[#470954] pt-5">
           <h1 className="text-white ml-20 pb-5 text-3xl font-bold">
             That is $41,720
           </h1>

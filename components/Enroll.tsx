@@ -7,7 +7,7 @@ const Enroll = () => {
     <div className="flex flex-col-2 bg-white h-screen w-screen sm:h-screen sm:w-screen pt-10">
       <div
         className="
-        bg-purple-900
+        bg-[#470954]
         pt-5
         ml-8
         pl-10
